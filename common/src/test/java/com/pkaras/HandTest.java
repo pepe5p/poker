@@ -65,7 +65,7 @@ public class HandTest {
         ));
         hand = new Hand(cards);
         assertEquals(
-            "[\u001B[35m7♠\u001B[33m][\u001B[35m5♠\u001B[33m] High Card on 7",
+            "[\u001B[35m7S\u001B[33m][\u001B[35m5S\u001B[33m] High Card on 7",
             hand.toString()
         );
         hand.removeCards();

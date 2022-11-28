@@ -6,9 +6,12 @@ Zasady:
  https://www.pokerzasady.pl/
 
 Uruchamianie:
- - włączenie serwera: java -jar .\server\server-1.0-SNAPSHOT-jar-with-dependencies.jar
- - włączenie dowolnej ilości klientów: java -jar .\client\client-1.0-SNAPSHOT-jar-with-dependencies.jar
- Żeby zagrać należy stworzyć grę w jednym kliencie i dołaczyć do niej w drugim:
+ - włączenie serwera:
+  $ java -jar .\server\server-1.0-SNAPSHOT-jar-with-dependencies.jar
+ - włączenie dowolnej ilości klientów:
+  $ java -jar .\client\client-1.0-SNAPSHOT-jar-with-dependencies.jar
+
+ Następnie, żeby zagrać należy stworzyć grę w jednym kliencie i dołaczyć do niej w drugim:
   client1 terminal: create 25 100 10000
   client2 terminal: join 1 10000
   client1 terminal: start
