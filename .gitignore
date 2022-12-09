@@ -85,3 +85,7 @@
 /common/target/surefire-reports/TEST-com.pkaras.HandTest.xml
 /common/target/classes/exceptions/UnknownGameActionException.class
 /common/target/classes/exceptions/UnknownGamePhaseException.class
+/pkaras-zadanie1.zip
+/readme.txt
+/sonar-qube/
+/javadoc/

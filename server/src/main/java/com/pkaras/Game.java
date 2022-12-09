@@ -433,6 +433,7 @@ public class Game {
             player.allIn = false;
             player.folded = player.chips.chipsInStack == 0;
         }
+        turnCount++;
         moveDealer();
         takeAnte();
         takeBlinds();
